@@ -26,3 +26,5 @@
   ``
 
 ##### Temp Stuff -->
+
+`python [environment path]/Scripts/pywin32_postinstall.py -install`
