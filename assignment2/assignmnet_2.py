@@ -3,10 +3,10 @@
 """
 # Python Modules
 import argparse
+from random import sample, seed
 from timeit import Timer
 
 from matplotlib import pyplot as plt
-from numpy.random import randint
 
 # 3rd Party Modules
 # -N/A
@@ -141,18 +141,18 @@ def algorithm3(S, start, stop):
 
 
 def main():
-	print("Problem 1: Sum of reciprocals")
-	xlst = [1, 2, 3, 4, 5]
-	print(f(xlst, action="sum"))
-	print(f(xlst, action="prod"))
-	print(f(xlst, action="reciprocal sum"))
+	# print("Problem 1: Sum of reciprocals")
+	# xlst = [1, 2, 3, 4, 5]
+	# print(f(xlst, action="sum"))
+	# print(f(xlst, action="prod"))
+	# print(f(xlst, action="reciprocal sum"))
 	print("Problem 2")
 	parser = argparse.ArgumentParser()
 	parser.add_argument("-lst", nargs="+", default=["1", "2", "3", "4", "5"], help="List of  the numbers")
 	parser.add_argument("-op", default="rec", help="sum, prod, rec")
 	args = parser.parse_args()
 	print("List of number is : {}".format(args.lst))
-	print("Opertion being performed : {}".format(args.op))
+	print("Operation to be performed : {}".format(args.op))
 	print(f(map(lambda x: int(x), args.lst), action=args.op))
 	print("Problem 3: Complex Numbers")
 	w = complex_(1, -3)
@@ -175,7 +175,8 @@ def main():
 	data_points_avg3 = []
 	data_size = []
 	for i in range(30):
-		s = [randint(0, i) for j in range(i)]
+		seed(50)
+		s = sample(range(0, 200), i)
 		t = Timer(lambda: average1(s))
 		run_time = t.timeit()
 		data_points_avg1.append(run_time)
@@ -198,24 +199,27 @@ def main():
 	run_time_alg2 = 0
 	run_time_alg3 = 0
 	print("Problem 5: Time analysis")
-	for i in range(75):
-		s = [randint(0, i) for _ in range(i)]
+	for i in range(150):
+		seed(50)
+		s = sample(range(0, 200), i)
 		t = Timer(lambda: algorithm1(s))
 		if run_time_alg1 < 45:
 			run_time_alg1 = t.timeit()
 		else:
 			print("Max Input size for algorithm 1 is :{}".format(i))
 			break
-	for i in range(175):
-		s = [randint(0, i) for j in range(i)]
+	for i in range(150):
+		seed(50)
+		s = sample(range(0, 200), i)
 		t = Timer(lambda: algorithm2(s))
 		if run_time_alg2 < 45:
 			run_time_alg2 = t.timeit()
 		else:
 			print("Max Input size for algorithm 2 is :{}".format(i))
 			break
-	for i in range(30):
-		s = [randint(0, i) for j in range(i)]
+	for i in range(150):
+		seed(50)
+		s = sample(range(0, 200), i)
 		t = Timer(lambda: algorithm3(s, 0, i))
 		if run_time_alg3 < 45:
 			run_time_alg3 = t.timeit()
