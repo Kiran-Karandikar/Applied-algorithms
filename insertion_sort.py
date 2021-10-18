@@ -29,11 +29,11 @@ def insertion_sort(array_ele):
 		return
 	for j in range(1, len(array_ele)):
 		if array_ele [j] < array_ele [j - 1]:
-			print("--------------------------------")
+			# print("--------------------------------")
 			print(array_ele [:j + 1])
 			for i in range(j, 0, -1):
 				if array_ele [i] < array_ele [i - 1]:
-					print("Swapping............")
+					# print("Swapping............")
 					array_ele [i], array_ele [i - 1] = array_ele [i - 1], array_ele [i]
 				else:
 					break
