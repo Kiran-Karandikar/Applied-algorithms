@@ -1,11 +1,28 @@
 # Applied algorithms
 
-> Python version 3.8
-
-`pip install -r requirements.txt`
-
+---
+This repo holds all standard applied algorithms.
 
 ---
+
+## Table of contents
+
+- Environment[#environment]
+- Todo[#todo]
+
+---
+
+### Environment
+
+- Python version: 3.8
+
+```shell
+pip install -r requirements.txt
+```
+
+---
+
+### Todo
 
 - [ ] re-arrange below stuff
 
