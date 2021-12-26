@@ -1,0 +1,2 @@
+- [ ] check here if all algorithms are working
+- [ ] include time complexity 

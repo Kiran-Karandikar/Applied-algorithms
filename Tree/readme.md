@@ -1,0 +1,3 @@
+- [ ] all tree algorithms
+- [ ] give time complexity as well
+- 

@@ -1,4 +1,13 @@
-# Applied algorithms Lab
+# Applied algorithms
+
+> Python version 3.8
+
+`pip install -r requirements.txt`
+
+
+---
+
+- [ ] re-arrange below stuff
 
 - ### Jupyter Notebook and Virtual Environment
 	
@@ -33,7 +42,8 @@
 
 conda list #Gives you list of packages used for the environment
 
-conda list -e > requirements.txt #Save all the info about packages to your folder
+conda list -e > requirements.txt #Save all the info about packages to your
+folder
 
 # To export environment file
 

@@ -1,0 +1,2 @@
+- [ ] all pattern matching algorithms
+- [ ] give time complexity as well

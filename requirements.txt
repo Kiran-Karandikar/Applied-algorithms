@@ -1,0 +1,11 @@
+backports.functools-lru-cache
+cycler
+kiwisolver
+matplotlib
+numpy
+pandas
+pyparsing
+python-dateutil
+pytz
+scipy
+six

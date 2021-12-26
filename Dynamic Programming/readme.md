@@ -1,0 +1,2 @@
+- [ ] all dynamic programming algorithms
+- [ ] include time complexity 
