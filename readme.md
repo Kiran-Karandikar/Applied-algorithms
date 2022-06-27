@@ -55,6 +55,7 @@
 </div>
 
 <!-- BADGES.MD Finish -->
+<!-- BADGES.MD Finish -->
 # Applied algorithms
 
 ---
@@ -127,6 +128,7 @@ conda env export > <environment-name>.yml
 # For other person to use the environment
 
 conda env create -f <environment-name>.yml
+
 ### Other projects
 
 Check out the other stuff I've worked upon.
