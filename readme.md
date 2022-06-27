@@ -1,3 +1,60 @@
+<div id="top"></div>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+[contributors-shield]: https://img.shields.io/github/contributors/kiran-karandikar/Applied-algorithms?style=for-the-badge
+
+[contributors-url]: https://github.com/Kiran-Karandikar/Applied-algorithms/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/Kiran-Karandikar/Applied-algorithms?style=for-the-badge
+
+[forks-url]: https://github.com/Kiran-Karandikar/Applied-algorithms/network
+
+[stars-shield]: https://img.shields.io/github/stars/Kiran-Karandikar/Applied-algorithms?style=for-the-badge
+
+[stars-url]: https://github.com/Kiran-Karandikar/Applied-algorithms/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/Kiran-Karandikar/Applied-algorithms?style=for-the-badge
+
+[issues-url]: https://github.com/Kiran-Karandikar/Applied-algorithms/issues
+
+[license-shield]: https://img.shields.io/github/license/Kiran-Karandikar/Applied-algorithms?style=for-the-badge
+
+[license-url]: https://github.com/Kiran-Karandikar/Applied-algorithms/blob/master/LICENSE
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+[linkedin-url]: https://linkedin.com/in/kiran-karandikar
+
+---------
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+<h3 align="center">Applied-algorithms</h3>
+  <p align="center">
+    This repo holds all standard applied algorithms.    
+    <br />    
+    <a href="https://kiran-karandikar.github.io/Applied-algorithms"><strong>Preview</strong></a>
+    <br />
+    <a href="https://github.com/kiran-karandikar/Applied-algorithms"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/kiran-karandikar/Applied-algorithms">View Demo</a>
+    ·
+    <a href="https://github.com/kiran-karandikar/Applied-algorithms/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kiran-karandikar/Applied-algorithms/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- BADGES.MD Finish -->
 # Applied algorithms
 
 ---
@@ -70,3 +127,24 @@ conda env export > <environment-name>.yml
 # For other person to use the environment
 
 conda env create -f <environment-name>.yml
+### Other projects
+
+Check out the other stuff I've worked upon.
+
+- ___AI/ML/Data Science___
+
+  - **AML-Home-Credit-Default-Risk** : [Predicting how capable each applicant is of repaying a loan \(Kaggle Challenge\).](https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk)
+
+  - **Exercise-performance-analysis** : [Prototype exercise volume prediction using machine learning models.](https://github.com/Kiran-Karandikar/Exercise-performance-analysis)
+
+- ___Web Development___
+
+  - **flask-app-template** : [Simple, reusable, minimalistic, configurable flask app.](https://github.com/Kiran-Karandikar/flask-app-template)
+
+  - **flask-oauth2-wrike-api** : [A sample Flask app to authenticate with Wrike as a third-party OAuth2 provider.](https://github.com/Kiran-Karandikar/flask-oauth2-wrike-api)
+
+> Section `Other projects` is auto-updated using [Github actions](https://github.com/features/actions). 
+<!-- CONTACT -->
+## Contact
+
+- [Kiran Karandikar: khkarandikar at gmail dot com](mailto:khkarandikar@gmail.com)
