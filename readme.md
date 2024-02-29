@@ -131,6 +131,7 @@ conda env create -f <environment-name>.yml
 
 
 
+
 ### Other projects
 
 Check out the other stuff I've worked upon.
@@ -151,4 +152,4 @@ Check out the other stuff I've worked upon.
 <!-- CONTACT -->
 ## Contact
 
-- [Kiran Karandikar: khkarandikar at gmail dot com](mailto:khkarandikar@gmail.com)
+- [Kiran Karandikar:](mailto:connect.funnel.github@kirankarandikar.com)
